@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "projects": {
+    "scully-plugin-demo": {
+      "projectType": "application",
+      "root": "apps/scully-plugin-demo",
+      "sourceRoot": "apps/scully-plugin-demo/src",
+      "prefix": "scully-plugins",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/scully-plugin-demo",
+            "index": "apps/scully-plugin-demo/src/index.html",
+            "main": "apps/scully-plugin-demo/src/main.ts",
+            "polyfills": "apps/scully-plugin-demo/src/polyfills.ts",
+            "tsConfig": "apps/scully-plugin-demo/tsconfig.app.json",
+            "assets": [
+              "apps/scully-plugin-demo/src/favicon.ico",
+              "apps/scully-plugin-demo/src/assets"
+            ],
+            "styles": ["apps/scully-plugin-demo/src/styles.css"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "apps/scully-plugin-demo/src/environments/environment.ts",
+                  "with": "apps/scully-plugin-demo/src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "scully-plugin-demo:build:production"
+            },
+            "development": {
+              "browserTarget": "scully-plugin-demo:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "scully-plugin-demo:build"
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/scully-plugin-demo/src/**/*.ts",
+              "apps/scully-plugin-demo/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/scully-plugin-demo"],
+          "options": {
+            "jestConfig": "apps/scully-plugin-demo/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
+    "scully-plugin-demo-e2e": {
+      "root": "apps/scully-plugin-demo-e2e",
+      "sourceRoot": "apps/scully-plugin-demo-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/scully-plugin-demo-e2e/cypress.json",
+            "devServerTarget": "scully-plugin-demo:serve:development"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "scully-plugin-demo:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["apps/scully-plugin-demo-e2e/**/*.{js,ts}"]
+          }
+        }
+      },
+      "tags": [],
+      "implicitDependencies": ["scully-plugin-demo"]
+    }
+  }
+}
