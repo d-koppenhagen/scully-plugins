@@ -123,7 +123,7 @@
       "implicitDependencies": ["scully-plugin-demo"]
     },
     "scully-plugin-mermaid": {
-      "root": "scully/scully-plugin-mermaid",
+      "root": "scully/plugins/scully-plugin-mermaid",
       "sourceRoot": "scully/plugins/scully-plugin-mermaid",
       "projectType": "library",
       "architect": {
@@ -149,7 +149,7 @@
       "tags": []
     },
     "scully-plugin-toc": {
-      "root": "scully/scully-plugin-toc",
+      "root": "scully/plugins/scully-plugin-toc",
       "sourceRoot": "scully/plugins/scully-plugin-toc",
       "projectType": "library",
       "architect": {
