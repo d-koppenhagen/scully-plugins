@@ -8,8 +8,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "scully": "npx scully --",
-    "scully:serve": "npx scully serve --"
+    "scully": "npx scully --cf scully.scully-plugin-demo.config.ts --ks --scan --no-warning",
+    "scully:serve": "npx scully serve --cf scully.scully-plugin-demo.config.ts"
   },
   "private": true,
   "dependencies": {
