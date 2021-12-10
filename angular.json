@@ -144,6 +144,29 @@
         }
       },
       "tags": []
+    },
+    "scully-plugin-mermaid": {
+      "root": "scully/scully-plugin-mermaid",
+      "sourceRoot": "scully/plugins/scully-plugin-mermaid",
+      "projectType": "library",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["scully/plugins/scully-plugin-mermaid/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/scully/plugins/scully-plugin-mermaid"],
+          "options": {
+            "jestConfig": "scully/plugins/scully-plugin-mermaid/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
     }
   }
 }
