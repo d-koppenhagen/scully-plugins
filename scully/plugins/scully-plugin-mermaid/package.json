@@ -23,7 +23,8 @@
     "email": "mail@k9n.dev"
   },
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepublishOnly": "npx tsc"
   },
   "peerDependencies": {
     "@angular/common": "^13.0.0 || ^14.0.0-0",
