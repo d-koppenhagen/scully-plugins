@@ -1,7 +1,24 @@
-import { ScullyConfig } from '@scullyio/scully';
-
+import { ScullyConfig, setPluginConfig } from '@scullyio/scully';
 /** this loads the default render plugin, remove when switching to something else. */
 import '@scullyio/scully-plugin-puppeteer';
+// import './scully/plugins/plugin';
+import './scully/plugins/scully-plugin-toc';
+import {
+  TocConfig,
+  TocPluginName,
+} from './scully/plugins/scully-plugin-toc';
+
+/**
+ * configuration for the TOC plugin
+ */
+const tocOptions: TocConfig = {
+  blogAreaSelector: '.blog-content',
+  insertSelector: '#toc',
+  level: ['h2', 'h3', 'h4'],
+  trailingSlash: true,
+  scrollIntoViewOnClick: true,
+};
+setPluginConfig(TocPluginName, tocOptions);
 
 export const config: ScullyConfig = {
   projectRoot: "./apps/scully-plugin-demo/src",
@@ -10,6 +27,7 @@ export const config: ScullyConfig = {
   routes: {
     '/blog/:slug': {
       type: 'contentFolder',
+      postRenderers: [TocPluginName],
       slug: {
         folder: "./blog"
       }

@@ -123,22 +123,22 @@
       "implicitDependencies": ["scully-plugin-demo"]
     },
     "scully-plugin-toc": {
-      "root": "libs/scully-plugin-toc",
-      "sourceRoot": "libs/scully-plugin-toc/src",
+      "root": "scully/scully-plugin-toc",
+      "sourceRoot": "scully/plugins/scully-plugin-toc",
       "projectType": "library",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "outputs": ["{options.outputFile}"],
           "options": {
-            "lintFilePatterns": ["libs/scully-plugin-toc/**/*.ts"]
+            "lintFilePatterns": ["scully/plugins/scully-plugin-toc/**/*.ts"]
           }
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/scully-plugin-toc"],
+          "outputs": ["coverage/scully/plugins/scully-plugin-toc"],
           "options": {
-            "jestConfig": "libs/scully-plugin-toc/jest.config.js",
+            "jestConfig": "scully/plugins/scully-plugin-toc/jest.config.js",
             "passWithNoTests": true
           }
         }

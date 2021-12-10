@@ -46,3 +46,4 @@ Thumbs.db
 scully.log
 scully/**/*.js
 scully/**/*.js.map
+!scully/**/jest.config.js
