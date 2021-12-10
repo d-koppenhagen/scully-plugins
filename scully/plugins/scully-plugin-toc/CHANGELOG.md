@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.0.1-alpha.1](/compare/scully-plugin-toc-0.0.1-alpha.0...scully-plugin-toc-0.0.1-alpha.1) (2021-12-10)
+
+
+
 ## 0.0.1-alpha.0 (2021-12-10)
 
 
