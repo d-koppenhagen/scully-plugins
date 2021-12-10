@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
+import { map, Observable } from 'rxjs';
 
 @Component({
   selector: 'scully-plugins-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'scully-plugin-demo';
+  links$: Observable<ScullyRoute[]> = this.scully.available$.pipe(
+    map(routeList => {
+      return routeList.filter((route: ScullyRoute) =>
+        route.route.startsWith(`/blog/`),
+      );
+    })
+  );
+
+  constructor(private scully: ScullyRoutesService) {}
 }
