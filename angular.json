@@ -122,29 +122,6 @@
       "tags": [],
       "implicitDependencies": ["scully-plugin-demo"]
     },
-    "scully-plugin-toc": {
-      "root": "scully/scully-plugin-toc",
-      "sourceRoot": "scully/plugins/scully-plugin-toc",
-      "projectType": "library",
-      "architect": {
-        "lint": {
-          "builder": "@nrwl/linter:eslint",
-          "outputs": ["{options.outputFile}"],
-          "options": {
-            "lintFilePatterns": ["scully/plugins/scully-plugin-toc/**/*.ts"]
-          }
-        },
-        "test": {
-          "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/scully/plugins/scully-plugin-toc"],
-          "options": {
-            "jestConfig": "scully/plugins/scully-plugin-toc/jest.config.js",
-            "passWithNoTests": true
-          }
-        }
-      },
-      "tags": []
-    },
     "scully-plugin-mermaid": {
       "root": "scully/scully-plugin-mermaid",
       "sourceRoot": "scully/plugins/scully-plugin-mermaid",
@@ -164,6 +141,35 @@
             "jestConfig": "scully/plugins/scully-plugin-mermaid/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "version": {
+          "builder": "@jscutlery/semver:version"
+        }
+      },
+      "tags": []
+    },
+    "scully-plugin-toc": {
+      "root": "scully/scully-plugin-toc",
+      "sourceRoot": "scully/plugins/scully-plugin-toc",
+      "projectType": "library",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["scully/plugins/scully-plugin-toc/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/scully/plugins/scully-plugin-toc"],
+          "options": {
+            "jestConfig": "scully/plugins/scully-plugin-toc/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "version": {
+          "builder": "@jscutlery/semver:version"
         }
       },
       "tags": []
