@@ -1,6 +1,10 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
+
+## 0.0.1-alpha.0 (2021-12-10)
+
+
 
 ## [3.0.0](https://github.com/d-koppenhagen/scully-plugins/tree/main/scully/plugins/scully-plugin-toc/compare/v2.0.0...v3.0.0) (2021-05-18)
 
