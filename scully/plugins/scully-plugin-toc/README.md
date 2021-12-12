@@ -1,17 +1,13 @@
 # scully-plugin-toc - The Table Of Contents `postRenderer`
 
-![Build Status](https://github.com/d-koppenhagen/scully-plugins/tree/main/scully/plugins/scully-plugin-toc/workflows/Node.js%20CI/badge.svg)
 [![npm](https://img.shields.io/npm/v/scully-plugin-toc.svg)](https://www.npmjs.com/package/scully-plugin-toc)
-[![Dependency Status](https://david-dm.org/d-koppenhagen/scully-plugin-toc.svg)](https://david-dm.org/d-koppenhagen/scully-plugin-toc)
-[![devDependency Status](https://david-dm.org/d-koppenhagen/scully-plugin-toc/dev-status.svg)](https://david-dm.org/d-koppenhagen/scully-plugin-toc?type=dev)
-
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/scully-plugin-mermaid)](https://img.shields.io/librariesio/release/npm/scully-plugin-mermaid)
 [![npm](https://img.shields.io/npm/l/scully-plugin-toc.svg)](https://www.npmjs.com/package/scully-plugin-toc)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
 This plugin for [Scully](https://github.com/scullyio/scully) provides a `postRenderer` to generate a _table of contents_ (_TOC_) for the rendered route content.
 
