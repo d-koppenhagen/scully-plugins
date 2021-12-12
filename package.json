@@ -10,7 +10,9 @@
     "test": "nx test",
     "scully": "npx scully --cf scully.scully-plugin-demo.config.ts --ks --scan --no-warning",
     "scully:serve": "npx scully serve --cf scully.scully-plugin-demo.config.ts",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release:scully-plugin-toc": "nx run scully-plugin-toc:version && cd scully/plugins/scully-plugin-toc && npm publish",
+    "release:scully-plugin-mermaid": "nx run scully-plugin-mermaid:version && cd scully/plugins/scully-plugin-mermaid && npm publish"
   },
   "private": true,
   "dependencies": {
