@@ -1,6 +1,27 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
+
+# [4.0.0](/compare/scully-plugin-mermaid-3.0.0...scully-plugin-mermaid-4.0.0) (2021-12-12)
+
+
+
+# [3.0.0](/compare/scully-plugin-mermaid-2.0.0...scully-plugin-mermaid-3.0.0) (2021-12-12)
+
+
+
+# [2.0.0](/compare/scully-plugin-mermaid-1.0.0...scully-plugin-mermaid-2.0.0) (2021-12-12)
+
+
+
+# 1.0.0 (2021-12-12)
+
+
+### Features
+
+* build plugins with tsc on prepublishOnly bb1d475
+
+
 
 ## [3.0.0](https://github.com/d-koppenhagen/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid/compare/v2.0.1...v3.0.0) (2021-05-14)
 
