@@ -2,6 +2,53 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [4.0.0](/compare/scully-plugin-toc-3.0.0...scully-plugin-toc-4.0.0) (2021-12-12)
+
+
+
+# [3.0.0](/compare/scully-plugin-toc-2.0.0...scully-plugin-toc-3.0.0) (2021-12-12)
+
+
+
+# [2.0.0](/compare/scully-plugin-toc-1.0.0...scully-plugin-toc-2.0.0) (2021-12-12)
+
+
+
+# 1.0.0 (2021-12-12)
+
+
+### Features
+
+* build plugins with tsc on prepublishOnly d69bcbb
+
+
+
+## 0.1.0 (2021-12-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **scully-plugin-mermaid:** migrate scully-plugin-mermaid into nx monorepo and made it scully2 ready
+* **scully-plugin-toc:** migrate scully-plugin-toc into nx monorepo and made it scully2 ready
+
+### Features
+
+* add blog support ([fbebe95](https://github.com/d-koppenhagen/scully-plugins/commit/fbebe950f217c3f7320f19835e2faa397087564c))
+* add routing for demo app ([f1c6f3b](https://github.com/d-koppenhagen/scully-plugins/commit/f1c6f3b3a6806410068d3596f86bab5490121609))
+* add semver release support ([83a3acf](https://github.com/d-koppenhagen/scully-plugins/commit/83a3acf8af725c2ceecf22216967543957f4628e))
+* add toc plugin demo page ([6e3fa22](https://github.com/d-koppenhagen/scully-plugins/commit/6e3fa222460244913f275cf2c6e116b78aa1d16c))
+* build plugins with tsc on prepublishOnly ([d69bcbb](https://github.com/d-koppenhagen/scully-plugins/commit/d69bcbb19104094ab3ffb5c57bba7efe34954ff9))
+* **demo:** add scully ([3102ad4](https://github.com/d-koppenhagen/scully-plugins/commit/3102ad49423825ffaeb3932dc18ba524a5deb7ae))
+* **scully-plugin-mermaid:** migrate scully-plugin-mermaid into nx monorepo and made it scully2 ready ([e38e28c](https://github.com/d-koppenhagen/scully-plugins/commit/e38e28ce4569db416af5e81e30480f5815650acf))
+* **scully-plugin-toc:** add initial lib ([e5ff87b](https://github.com/d-koppenhagen/scully-plugins/commit/e5ff87b7ee37423bb9f8cf56966bbda170d2af30))
+* **scully-plugin-toc:** migrate scully-plugin-toc into nx monorepo and made it scully2 ready ([984282e](https://github.com/d-koppenhagen/scully-plugins/commit/984282e66ec3596b45b59f33c5d5dfa416cda272))
+
+
+### Bug Fixes
+
+* root paths to plugins ([793b0b7](https://github.com/d-koppenhagen/scully-plugins/commit/793b0b747aafaa9a972840a61d0cf3e0c6c420e5))
+* scully scripts ([6ad2e75](https://github.com/d-koppenhagen/scully-plugins/commit/6ad2e75cbe821d829c2db6783190592860b692b3))
+
 ## [0.0.1-alpha.1](/compare/scully-plugin-toc-0.0.1-alpha.0...scully-plugin-toc-0.0.1-alpha.1) (2021-12-10)
 
 
