@@ -2,6 +2,8 @@
 
 # Scully Plugins
 
+[![https://img.shields.io/badge/Demo-GH--Pages-green](https://img.shields.io/badge/Demo-GH--Pages-green)](https://d-koppenhagen.github.io/scully-plugins)
+
 <img width="300" alt="Scully Logo" src="https://raw.githubusercontent.com/scullyio/scully/main/assets/logos/SVG/Green/scullyio-logo-green.svg">
 
 This workspace contains a collection of plugins for the [SSG Scully](https://scully.io/) listed below.
