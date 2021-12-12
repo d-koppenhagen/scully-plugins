@@ -1,11 +1,5 @@
 module.exports = {
-  mode: 'jit',
-  purge: {
-    enabled: true,
-    // enabled: process.env.TAILWIND_MODE === 'build',
-    content: ['./src/**/*.{html,ts}'],
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: ['./apps/scully-plugin-demo/**/*.{html,js}'],
   theme: {
     colors: {
       blue: '#1fb6ff',
