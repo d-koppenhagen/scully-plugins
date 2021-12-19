@@ -3,9 +3,9 @@
   "version": "4.0.0",
   "description": "this plugin for Scully provides a postRenderer to generate a SVGs from mermaid source code sections",
   "license": "MIT",
-  "repository": "https://github.com/d-koppenhagen/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid",
+  "repository": "https://github.com/k9n-dev/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid",
   "author": "Danny Koppenhagen <mail@k9n.dev> (https://k9n.dev)",
-  "homepage": "https://github.com/d-koppenhagen/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid",
+  "homepage": "https://github.com/k9n-dev/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid",
   "keywords": [
     "scully",
     "scully-plugin",
@@ -19,7 +19,7 @@
     "postProcessByHtml"
   ],
   "bugs": {
-    "url": "https://github.com/d-koppenhagen/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid/issues",
+    "url": "https://github.com/k9n-dev/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid/issues",
     "email": "mail@k9n.dev"
   },
   "scripts": {
