@@ -2,6 +2,21 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [5.0.0](https://github.com/k9n-dev/scully-plugins/compare/scully-plugin-mermaid-4.0.1...scully-plugin-mermaid-5.0.0) (2021-12-19)
+
+
+### Features
+
+* migrate to k9n org ([e42169f](https://github.com/k9n-dev/scully-plugins/commit/e42169fcf875c76725775fa22155451105efbbd2))
+
+
+### BREAKING CHANGES
+
+* moved packages into `@k9n` org.
+notes: please adjust your imports to `@k9n/scully-plugin-*`
+
+
+
 ## [4.0.1](https://github.com/k9n-dev/scully-plugins/compare/scully-plugin-mermaid-4.0.0...scully-plugin-mermaid-4.0.1) (2021-12-19)
 
 

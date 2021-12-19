@@ -1,6 +1,6 @@
 {
   "name": "@k9n/scully-plugin-mermaid",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "this plugin for Scully provides a postRenderer to generate a SVGs from mermaid source code sections",
   "license": "MIT",
   "repository": "https://github.com/k9n-dev/scully-plugins/tree/main/scully/plugins/scully-plugin-mermaid",
