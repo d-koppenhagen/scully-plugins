@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# 0.1.0 (2021-12-19)
+
+
+### Features
+
+* build plugins with tsc on prepublishOnly ([bb1d475](https://github.com/k9n-dev/scully-plugins/commit/bb1d47586764e03c73fff1d48a5294f280d05bc2))
+
+
+
 # [4.0.0](/compare/scully-plugin-toc-3.0.0...scully-plugin-toc-4.0.0) (2021-12-12)
 
 
