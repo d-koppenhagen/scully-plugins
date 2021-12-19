@@ -47,3 +47,4 @@ scully.log
 scully/**/*.js
 scully/**/*.js.map
 !scully/**/jest.config.js
+!scully/**/postinstall.js

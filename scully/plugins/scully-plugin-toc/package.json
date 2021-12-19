@@ -6,6 +6,7 @@
   "repository": "https://github.com/k9n-dev/scully-plugins/tree/main/scully/plugins/scully-plugin-toc",
   "author": "Danny Koppenhagen <mail@k9n.dev> (https://k9n.dev)",
   "homepage": "https://github.com/k9n-dev/scully-plugins/tree/main/scully/plugins/scully-plugin-toc",
+  "private": false,
   "keywords": [
     "scully",
     "scully-plugin",
@@ -24,7 +25,8 @@
   },
   "scripts": {
     "release": "standard-version",
-    "prepublishOnly": "npx tsc"
+    "prepublishOnly": "npx tsc",
+    "postinstall": "node -e \"try{require('./postinstall')}catch(e){}\""
   },
   "peerDependencies": {
     "@angular/common": "^13.0.0 || ^14.0.0-0",

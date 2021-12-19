@@ -1,5 +1,7 @@
 # scully-plugin-mermaid - The mermaid  `postRenderer`
 
+> Attention! The package 'scully-plugin-mermaid' has been moved into the 'k9n' org. Please update the imports to: '@k9n/scully-plugin-mermaid'. The package: 'scully-plugin-mermaid' won't receive updates in the future.
+
 [![npm](https://img.shields.io/npm/v/scully-plugin-mermaid.svg)](https://www.npmjs.com/package/scully-plugin-mermaid)
 [![Dependency Status](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)
 [![npm](https://img.shields.io/npm/l/scully-plugin-mermaid.svg)](https://www.npmjs.com/package/scully-plugin-mermaid)

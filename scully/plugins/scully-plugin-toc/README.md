@@ -1,7 +1,9 @@
 # scully-plugin-toc - The Table Of Contents `postRenderer`
 
+> Attention! The package 'scully-plugin-toc' has been moved into the 'k9n' org. Please update the imports to: '@k9n/scully-plugin-toc'. The package: 'scully-plugin-toc' won't receive updates in the future.
+
 [![npm](https://img.shields.io/npm/v/scully-plugin-toc.svg)](https://www.npmjs.com/package/scully-plugin-toc)
-[![Dependency Status](https://img.shields.io/librariesio/release/npm/scully-plugin-mermaid)](https://img.shields.io/librariesio/release/npm/scully-plugin-mermaid)
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)
 [![npm](https://img.shields.io/npm/l/scully-plugin-toc.svg)](https://www.npmjs.com/package/scully-plugin-toc)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
