@@ -1,13 +1,13 @@
 import { ScullyConfig, setPluginConfig } from '@scullyio/scully';
 /** this loads the default render plugin, remove when switching to something else. */
 import '@scullyio/scully-plugin-puppeteer';
-import '@k9n/scully-plugin-toc';
-import { TocConfig, TocPluginName } from '@k9n/scully-plugin-toc';
-import '@k9n/scully-plugin-mermaid';
+import './scully/plugins/scully-plugin-toc';
+import { TocConfig, TocPluginName } from './scully/plugins/scully-plugin-toc';
+import './scully/plugins/scully-plugin-mermaid';
 import {
   MermaidPluginConfig,
   MermaidPluginName,
-} from '@k9n/scully-plugin-mermaid';
+} from './scully/plugins/scully-plugin-mermaid';
 /**
  * configuration for the TOC plugin
  */
