@@ -69,7 +69,7 @@ const mermaidOptions: MermaidAPI.Config = {
 
 **New**:
 ```
-import { /* ... */, MermaidPluginConfig } from 'scully-plugin-mermaid';
+import { /* ... */, MermaidPluginConfig } from '@k9n/scully-plugin-mermaid';
 
 // ...
 

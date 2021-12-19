@@ -15,9 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@scully-plugins/scully-plugin-toc": [
-        "libs/scully-plugin-toc/src/index.ts"
-      ]
+      "@k9n/scully-plugin-toc": ["libs/scully-plugin-toc/src/index.ts"],
+      "@k9n/scully-plugin-mermaid": ["libs/scully-plugin-mermaid/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

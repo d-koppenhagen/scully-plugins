@@ -1,10 +1,8 @@
 # scully-plugin-mermaid - The mermaid  `postRenderer`
 
-> Attention! The package 'scully-plugin-mermaid' has been moved into the 'k9n' org. Please update the imports to: '@k9n/scully-plugin-mermaid'. The package: 'scully-plugin-mermaid' won't receive updates in the future.
-
-[![npm](https://img.shields.io/npm/v/scully-plugin-mermaid.svg)](https://www.npmjs.com/package/scully-plugin-mermaid)
-[![Dependency Status](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)
-[![npm](https://img.shields.io/npm/l/scully-plugin-mermaid.svg)](https://www.npmjs.com/package/scully-plugin-mermaid)
+[![npm](https://img.shields.io/npm/v/@k9n/scully-plugin-mermaid.svg)](https://www.npmjs.com/package/@k9n/scully-plugin-mermaid)
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/@k9n/scully-plugin-mermaid.svg)](https://img.shields.io/librariesio/release/npm/@k9n/scully-plugin-mermaid)
+[![npm](https://img.shields.io/npm/l/@k9n/scully-plugin-mermaid.svg)](https://www.npmjs.com/package/@k9n/scully-plugin-mermaid)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
@@ -16,7 +14,7 @@
 To install this library with `npm` run:
 
 ```bash
-npm i scully-plugin-mermaid mermaid-render -D
+npm i @k9n/scully-plugin-mermaid mermaid-render -D
 ```
 
 ## Usage
@@ -27,8 +25,8 @@ Apply the *postRenderer* plugin via your Scully config file (`scully.<project-na
 import { ScullyConfig, setPluginConfig } from '@scullyio/scully';
 /** this loads the default render plugin, remove when switching to something else. */
 import '@scullyio/scully-plugin-puppeteer';
-import 'scully-plugin-mermaid';
-import { MermaidPluginName, MermaidPluginConfig } from 'scully-plugin-mermaid';
+import '@k9n/scully-plugin-mermaid';
+import { MermaidPluginName, MermaidPluginConfig } from '@k9n/scully-plugin-mermaid';
 
 const mermaidOptions: MermaidPluginConfig = {
   /**

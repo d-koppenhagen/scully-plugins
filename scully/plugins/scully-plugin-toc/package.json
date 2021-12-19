@@ -1,5 +1,5 @@
 {
-  "name": "scully-plugin-toc",
+  "name": "@k9n/scully-plugin-toc",
   "version": "4.0.1",
   "description": "This plugin for scully provides a postRenderer to generate a table of contents for the rendered route content",
   "license": "MIT",
@@ -25,8 +25,7 @@
   },
   "scripts": {
     "release": "standard-version",
-    "prepublishOnly": "npx tsc",
-    "postinstall": "node -e \"try{require('./postinstall')}catch(e){}\""
+    "prepublishOnly": "npx tsc"
   },
   "peerDependencies": {
     "@angular/common": "^13.0.0 || ^14.0.0-0",

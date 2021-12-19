@@ -1,5 +1,5 @@
 {
-  "name": "scully-plugin-mermaid",
+  "name": "@k9n/scully-plugin-mermaid",
   "version": "4.0.1",
   "description": "this plugin for Scully provides a postRenderer to generate a SVGs from mermaid source code sections",
   "license": "MIT",
@@ -25,8 +25,7 @@
   },
   "scripts": {
     "release": "standard-version",
-    "prepublishOnly": "npx tsc",
-    "postinstall": "node -e \"try{require('./postinstall')}catch(e){}\""
+    "prepublishOnly": "npx tsc"
   },
   "peerDependencies": {
     "@angular/common": "^13.0.0 || ^14.0.0-0",

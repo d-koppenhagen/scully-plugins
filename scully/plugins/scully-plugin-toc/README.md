@@ -1,10 +1,8 @@
 # scully-plugin-toc - The Table Of Contents `postRenderer`
 
-> Attention! The package 'scully-plugin-toc' has been moved into the 'k9n' org. Please update the imports to: '@k9n/scully-plugin-toc'. The package: 'scully-plugin-toc' won't receive updates in the future.
-
-[![npm](https://img.shields.io/npm/v/scully-plugin-toc.svg)](https://www.npmjs.com/package/scully-plugin-toc)
-[![Dependency Status](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)](https://img.shields.io/librariesio/release/npm/scully-plugin-toc)
-[![npm](https://img.shields.io/npm/l/scully-plugin-toc.svg)](https://www.npmjs.com/package/scully-plugin-toc)
+[![npm](https://img.shields.io/npm/v/@k9n/scully-plugin-toc.svg)](https://www.npmjs.com/package/@k9n/scully-plugin-toc)
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/@k9n/scully-plugin-toc.svg)](https://img.shields.io/librariesio/release/npm/@k9n/scully-plugin-toc)
+[![npm](https://img.shields.io/npm/l/@k9n/scully-plugin-toc.svg)](https://www.npmjs.com/package/@k9n/scully-plugin-toc)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
@@ -18,7 +16,7 @@ This plugin for [Scully](https://github.com/scullyio/scully) provides a `postRen
 To install this library with `npm` run:
 
 ```sh
-npm i scully-plugin-toc jsdom -D
+npm i @k9n/scully-plugin-toc jsdom -D
 ```
 
 ## Usage
@@ -30,11 +28,11 @@ You can configure the plugin by using the `toc` options:
 import { ScullyConfig, setPluginConfig } from '@scullyio/scully';
 /** this loads the default render plugin, remove when switching to something else. */
 import '@scullyio/scully-plugin-puppeteer';
-import 'scully-plugin-toc';
+import '@k9n/scully-plugin-toc';
 import {
   TocConfig,
   TocPluginName,
-} from 'scully-plugin-toc';
+} from '@k9n/scully-plugin-toc';
 
 const tocOptions: TocConfig = {
   blogAreaSelector: '.blog-content', // where to search for TOC headings
