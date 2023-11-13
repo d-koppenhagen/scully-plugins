@@ -28,8 +28,8 @@
     "prepublishOnly": "npx tsc"
   },
   "peerDependencies": {
-    "@angular/common": "^13.0.0 || ^14.0.0-0",
-    "@angular/core": "^13.0.0 || ^14.0.0-0",
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
     "@scullyio/scully": "^2.0.0",
     "jsdom": ">=16.0.0",
     "mermaid-render": "^1.0.9"
