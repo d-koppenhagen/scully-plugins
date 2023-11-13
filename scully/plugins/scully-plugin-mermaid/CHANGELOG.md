@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [5.1.0](https://github.com/k9n-dev/scully-plugins/compare/scully-plugin-mermaid-5.0.0...scully-plugin-mermaid-5.1.0) (2023-11-13)
+
+
+### Features
+
+* allow versions greater than 13.0.0 for scully plugins ([d9d30e2](https://github.com/k9n-dev/scully-plugins/commit/d9d30e211869874cb59984f61123b2eb900cdf50))
+
+
+
 # [5.0.0](https://github.com/k9n-dev/scully-plugins/compare/scully-plugin-mermaid-4.0.1...scully-plugin-mermaid-5.0.0) (2021-12-19)
 
 
